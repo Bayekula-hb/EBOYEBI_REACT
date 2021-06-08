@@ -1,8 +1,10 @@
+import MenuExamplePointing from "./components/header";
+
 const App = ()=>{
 
   return(
     <>
-      <h1> Eboyebi </h1>
+      <MenuExamplePointing />
     </>
   )
 }
