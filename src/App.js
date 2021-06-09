@@ -1,10 +1,10 @@
-import MenuExamplePointing from "./components/header";
+import Header from "./components/Header";
 
 const App = ()=>{
 
   return(
     <>
-      <MenuExamplePointing />
+      <Header />
     </>
   )
 }
