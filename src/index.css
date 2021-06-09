@@ -28,17 +28,21 @@ body {
   background-color: rgb(4, 1, 54);
 }
 .div--home {
+  padding: 0% 5%;
+}
+.container-img{
+  margin-top: 5%;
 }
 .img--home {
-  margin-top: 5%;
-  width: 40%;
+  width: 100%;
   object-fit: cover;
+  border-radius: 12px;
 }
 .div--text {
   margin-top: 5%;
 }
 .para--apprendre, .para--details {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
 }
 .para--apprendre{
