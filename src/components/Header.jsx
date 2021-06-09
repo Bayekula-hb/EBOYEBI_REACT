@@ -2,7 +2,7 @@ import { Navbar, Nav, FormControl,  InputGroup } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="justify-content-around Head">
+    <Navbar expand="lg" className="justify-content-around Head"  fixed="top">
       <Navbar.Brand href="#home" className="col-4 Title">Eboyebi</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="col-8">
