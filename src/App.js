@@ -5,6 +5,10 @@ const App = ()=>{
   return(
     <>
       <Header />
+      <section id="Home" className="section section--home">
+        
+
+      </section>
     </>
   )
 }
