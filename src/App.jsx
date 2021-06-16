@@ -1,4 +1,4 @@
-
+import { Switch, Route } from "react-router";
 import Header from "./components/Header";
 import Section from "./components/Section";
 
@@ -17,7 +17,11 @@ const App = () => {
   return (
     <>
       <Header />
-      <Section/>
+      <Switch>
+        <Route exact patch="/">
+          <Section />
+        </Route>
+      </Switch>
     </>
   );
 };
