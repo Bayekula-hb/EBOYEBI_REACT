@@ -6,6 +6,12 @@
 .Form{
   font-size: 1.4rem;
 }
+a{
+  text-decoration: none;
+}
+.link--compte{
+  color: #000;
+}
 
 @media screen and (max-device-width: 480px) {
   .section--home{
