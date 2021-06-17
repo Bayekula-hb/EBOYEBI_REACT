@@ -1,6 +1,6 @@
 import { Form, Button } from "react-bootstrap";
 
-const FromSuscribe = () => {
+const  FormSuscribe= () => {
   return (
     <Form className="Form">
       <Form.Group controlId="formBasicEmail">
@@ -22,4 +22,4 @@ const FromSuscribe = () => {
     </Form>
   );
 };
-export default FromSuscribe;
+export default FormSuscribe;
