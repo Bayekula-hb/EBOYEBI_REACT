@@ -1,16 +1,17 @@
+
 .btn--login {
   font-size: 1.4rem;
   background-color: rgb(4, 1, 54) !important;
   text-transform: uppercase;
 }
+a, Link{
+  text-decoration: none !important;
+}
 .Form{
   font-size: 1.4rem;
 }
-a{
-  text-decoration: none;
-}
 .link--compte{
-  color: #000;
+  color: #ee5253;
 }
 
 @media screen and (max-device-width: 480px) {

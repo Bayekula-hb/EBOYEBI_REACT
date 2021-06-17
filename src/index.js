@@ -3,17 +3,15 @@ import ReactDOM from "react-dom";
 import App from "./App.jsx";
 import "semantic-ui-css/semantic.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
-import "./sass/main.scss";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import "./index.css";
+import "./sass/main.scss";
 
 ReactDOM.render(
-  <React.StrictMode>
     <BrowserRouter>
-    <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+      <App />
+    </BrowserRouter>,
   document.getElementById("root")
 );
 

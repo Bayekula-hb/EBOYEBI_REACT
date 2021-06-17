@@ -17,8 +17,8 @@ export default function LoginModal() {
   
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Identifiez-vous <br/>
-            <Link className="link link--compte"> ou créer un compte simplemnt </Link></Modal.Title>
+            <Modal.Title>Identifiez-vous <br/>ou 
+            <Link to="/Inscription" className="link link--compte" onClick={handleClose}> Inscrivez-vous </Link></Modal.Title>
           </Modal.Header>
           <Modal.Body>
               <LoginForm/>

@@ -1,4 +1,6 @@
 import { Switch, Route } from "react-router";
+import containerInscription from "./components/conatinerInscription";
+import containerCours from "./components/cours";
 import Header from "./components/Header";
 import Section from "./components/Section";
 
@@ -18,6 +20,8 @@ const App = () => {
     <>
       <Header />
       <Switch>
+        <Route path="/Inscription" component={containerInscription}/>
+        <Route path="/Cours" component={containerCours}/>
         <Route exact patch="/">
           <Section />
         </Route>
