@@ -1,6 +1,6 @@
 import { Form, Button } from "react-bootstrap";
 
-const LoginForm = () => {
+const FromSuscribe = () => {
   return (
     <Form className="Form">
       <Form.Group controlId="formBasicEmail">
@@ -12,10 +12,14 @@ const LoginForm = () => {
         <Form.Label className="Form">Mot de passe</Form.Label>
         <Form.Control type="password" placeholder="Mot de passe" />
       </Form.Group>
+      <Form.Group controlId="formBasicPassword">
+        <Form.Label className="Form">Confirmer le mot de passe</Form.Label>
+        <Form.Control type="password" placeholder="Mot de passe" />
+      </Form.Group>
       <Button className="Form--submit" variant="primary" type="submit">
-        Envoyer
+        CRÉER MON COMPTE
       </Button>
     </Form>
   );
 };
-export default LoginForm;
+export default FromSuscribe;
